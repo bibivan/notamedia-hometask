@@ -1,19 +1,8 @@
 <script setup>
 import CartItem from './CartItem.vue'
 
-// Мок-данные содержимого корзины
-// [
-//   {
-//     id: 'product_1',
-//     count: 1,
-//   },
-//   {
-//     id: 'product_2',
-//     count: 2,
-//   }
-// ]
-
-
+// Мокданные списка городов и доступных точек доставки
+// import { pickupPointsMockData } from "../../data/mock-data/index.js";
 </script>
 
 <template>
