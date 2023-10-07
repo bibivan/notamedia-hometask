@@ -1,0 +1,48 @@
+@import './base.css';
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.fieldset {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--vt-c-text-dark-2);
+}
+
+.fieldset__legend {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

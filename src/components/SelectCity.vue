@@ -1,22 +1,15 @@
-<script setup>
+<script setup lang="ts">
 import BaseSelect from './base-components/BaseSelect.vue'
 
-
 // мокданные списка содержимого корзины
-// import { productsMOckData } from "../data/mock-data/index.js";
-
-
+// import { productsMOckData } from "../data/mock-data/index.ts";
 </script>
 
 <template>
-  <section class="choose-city">
-    <h2>Доступные города</h2>
-    <BaseSelect/>
-  </section>
+  <div class="fieldset">
+    <h2 class="fieldset__legend">Доступные города</h2>
+    <BaseSelect />
+  </div>
 </template>
 
-<style lang="scss" scoped>
-.choose-city {
-  margin-bottom: 20px;
-}
-</style>
+<style lang="scss" scoped></style>

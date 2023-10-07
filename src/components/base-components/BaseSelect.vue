@@ -1,22 +1,20 @@
-<script setup>
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="select-block">
     <label
-        for="some_select_id"
-        class="select-block__label"
+      for="some_select_id"
+      class="select-block__label"
     >
       Label
     </label>
     <select
-        id="some_select_id"
-        class="select-block__select"
+      id="some_select_id"
+      class="select-block__select"
     >
       <option
-          class="select-block__option"
-          value=""
+        class="select-block__option"
+        value=""
       >
         Option
       </option>
@@ -36,7 +34,8 @@
     padding: 5px;
     border-radius: 4px;
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       border-color: #646cff;
       outline-color: #646cff;
     }

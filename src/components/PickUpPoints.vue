@@ -1,16 +1,12 @@
-<script setup>
+<script setup lang="ts">
 import BaseRadio from './base-components/BaseRadio.vue'
 </script>
 
 <template>
-  <section class="pickup-points">
-    <h2>Доступные пункты вывоза заказов</h2>
-    <BaseRadio/>
-  </section>
+  <div class="fieldset">
+    <h2 class="fieldset__legend">Доступные пункты вывоза заказов</h2>
+    <BaseRadio />
+  </div>
 </template>
 
-<style scoped>
-.pickup-points {
-  margin-bottom: 20px;
-}
-</style>
+<style scoped></style>

@@ -1,14 +1,12 @@
-<script setup>
+<script setup lang="ts">
 import BaseInput from './base-components/BaseInput.vue'
 </script>
 
 <template>
-  <section>
-    <h2>Данные клиента</h2>
-    <BaseInput/>
-  </section>
+  <div class="fieldset">
+    <h2 class="fieldset__legend">Данные клиента</h2>
+    <BaseInput />
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
