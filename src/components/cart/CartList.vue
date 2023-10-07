@@ -1,8 +1,8 @@
 <script setup>
-import CartItem from './CartItem.vue'
+import CartItem from "@/components/cart/CartItem.vue";
 
 // Мокданные списка городов и доступных точек доставки
-// import { pickupPointsMockData } from "../../data/mock-data/index.js";
+// import { pickupPointsMockData } from "@/data/mock-data/index.js";
 </script>
 
 <template>

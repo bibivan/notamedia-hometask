@@ -2,8 +2,8 @@
 import ClientData from './components/ClientData.vue'
 import PickUpPoints from './components/PickUpPoints.vue'
 import SelectCity from './components/SelectCity.vue'
-import BaseButton from './components/base-components/BaseButton.vue'
 import CartList from './components/cart/CartList.vue'
+import BaseButton from "@/components/base-components/BaseButton.vue";
 </script>
 
 <template>
